@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         String mensagem = " ";
         int digito = Integer.parseInt(entrada.getText().toString());
         if(tentativas == 5){
-            mensagem = "Suas tentativas se esgotaram!";
+            mensagem = "Suas tentativas se esgotaram!\nO número era "+numeroGerado+".";
         }else{if(digito>numeroGerado){
             mensagem = "O número gerado é menor!\nVocê ainda tem "+(5-tentativas)+" tentativas.";
         } else if(digito<numeroGerado){

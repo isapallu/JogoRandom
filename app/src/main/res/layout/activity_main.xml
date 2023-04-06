@@ -18,7 +18,7 @@
         android:inputType="number"
         android:singleLine="false"
         android:textAlignment="center"
-        android:textColor="#FFFCFC"
+        android:textColor="#F6B9D4"
         android:textColorHint="#F6B9D4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,13 +63,13 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_semibold"
         android:text="Resultado"
+        android:textAlignment="center"
         android:textColor="#ECA2C3"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.417" />
+        app:layout_constraintVertical_bias="0.465" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
